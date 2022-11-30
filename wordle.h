@@ -20,4 +20,13 @@ std::set<std::string> wordle(
     const std::string& floating,
     const std::set<std::string>& dict);
 
+void wordle_helper(
+    std::string in,
+    std::string float_,
+    std::set<std::string>& result, 
+    int pos);
+
+
+bool is_valid(std::string in, std::string float_);
+
 #endif
